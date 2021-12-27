@@ -1,0 +1,147 @@
+* {
+    overflow: auto;
+}
+
+body{
+    background-color: #8BA1BB;
+    font: "Times New Roman"
+}
+
+div.cat2{
+    background-color: white;
+    box-shadow: 0px 0px 10px 10px #00000038;
+    margin: 60px 10% 80px 10%;
+    padding: 0 30px 30px 30px;
+    min-width: 350px;
+    overflow: visible;
+}
+
+p.cat1{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 6px 18px;
+    width: 60px;
+    margin: 0px;
+    font-size: 18px;
+    margin-top: -20px;
+    margin-bottom: 0;
+}
+
+div.cat1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible;
+}
+
+p.cat2{
+    text-align: center;
+    max-width: 400px;
+    min-width: 100px;
+    width: 80%;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.center{
+    text-align: center;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+div.line{
+    width: 200px;
+    height: 1px;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img.cat1{
+    text-align: center;
+    clip-path: inset(0 0 3% 0);
+    min-height: 400px;
+    max-height: 800px;
+    width: 100%;
+    display: block;
+    background-color: lightgray;
+    object-fit: cover;
+}
+
+div.cat3{ 
+    position: relative;
+}
+
+table.cat1{
+    text-align: center;
+    background-color: #6C829DAF;
+    color: white;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    height: 80px;
+}
+
+div.col{
+    width: 45%;
+    margin-top: 15px;
+}
+
+div.col h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #6C829D;
+}
+
+div.col1 p{
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid lightgray;
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+}
+
+div.col1{
+    display: inline-block;
+}
+
+div.col2 p{
+    text-align: center;
+    background-color: #6C829D;
+    font-weight: bold;
+    color: white;
+    height: 25px;
+    width: 25px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+}
+
+div.col2 td.info{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+div.col2 td{
+    font-size: 14px;
+    vertical-align: top;
+}
+
+div.col2 tr{
+    height: 50px;
+}
+
+div.col2{
+    float: right;
+}
+
